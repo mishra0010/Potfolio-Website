@@ -1,0 +1,49 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="gallery.css">
+    </head>
+    <body>
+      <br>
+     <center> <h1><i style="color: aliceblue;">Gallery</i></h1></center>
+        <div class="full-img" id="fullImgBox">
+          <img src="ro1.jpg" alt="hitman" id="fullImg">
+          <span onclick="closeFullImg()">X</span>
+        </div>
+  <div class="img-gallery">
+      <img src="https://i.pinimg.com/originals/3c/d8/8c/3cd88c127a9d90c5abdcc9a4e3149ed2.jpg" width="250" height="250" alt="krishna" onclick="openFullImg(this.src)">
+      <img src="https://cdn.pixabay.com/photo/2017/10/10/07/48/hills-2836301__340.jpg" width="250" height="250"  alt="krishna" onclick="openFullImg(this.src)">
+      <img src="https://images.unsplash.com/photo-1454372182658-c712e4c5a1db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80" width="250" height="250" alt="krishna" onclick="openFullImg(this.src)">
+      <img src="https://www.pixelstalk.net/wp-content/uploads/images2/Scenery-Wallpaper-HD.jpg" width="250" height="250" alt="krishna" onclick="openFullImg(this.src)">
+      <img src="https://wallpapercave.com/wp/wp2566226.jpg" width="250" height="250" alt="krishna" onclick="openFullImg(this.src)">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOCFYy1uXeaFz2GPmfRe81mVnGSepq7lmaqA&usqp=CAU" width="250" height="250" alt="krishna" onclick="openFullImg(this.src)">
+      <img src="https://wallpapercave.com/wp/wp3320234.jpg" width="250" height="250" alt="krishna" onclick="openFullImg(this.src)">
+      <img src="https://image.winudf.com/v2/image/Y29tLnNldHNseS5zY2VuZXJ5d2FsbHBhcGVyc19zY3JlZW5fMF8xNTM4MDA2ODkyXzA4Mg/screen-0.jpg?fakeurl=1&type=.jpg" width="250" height="300" alt="krishna" onclick="openFullImg(this.src)">
+      <img src="https://m.media-amazon.com/images/I/8192Yt4zAfL._SL1500_.jpg" width="250" height="300" alt="krishna" onclick="openFullImg(this.src)">
+      <img src="https://wallpaperaccess.com/full/1376495.jpg" width="300" height="300"  alt="krishna" onclick="openFullImg(this.src)">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBLoj63YyytIA25157N6cskCS6PNTYsDpAxVliI2ynCZybctyHjsBoMujhTxcSdJV7gWw&usqp=CAU" width="300" height="300"  alt="krishna" onclick="openFullImg(this.src)">
+      <img src="https://hdfreewallpaper.net/wp-content/uploads/2016/08/Beautiful-Hd-Scenery-Wallpapers.jpg" width="300" height="300"  alt="krishna" onclick="openFullImg(this.src)">
+
+
+  </div>
+
+<script>
+var fullImgBox = document.getElementById("fullImgBox");
+var fullImg = document.getElementById("fullImg");
+
+function openFullImg(pic){
+  fullImgBox.style.display = "flex";
+  fullImg.src =pic;
+}
+function closeFullImg(){
+  fullImgBox.style.display = "none";
+}
+
+
+</script>
+
+    </body>
+    </html>

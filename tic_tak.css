@@ -1,0 +1,17 @@
+ html, body {
+    margin: 0;
+    padding-left: 270px;
+    padding-top: 60px;
+    background-color: #334066;
+    
+} 
+h1{
+    font-family: fantasy;
+    font-weight: 50px;
+    word-spacing: 7mm;
+}
+
+
+canvas {
+    display :block;
+}
